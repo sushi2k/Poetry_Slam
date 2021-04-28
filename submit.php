@@ -198,7 +198,7 @@ Player.prototype = {
 
 
 	var sample = new Howl({
-	  src: ['audio/Sub-Conscious-Part_21.m4a'],
+	  src: ['audio/<filename>'],
 	  loop: true,
 	  volume: 0.6
 	});

@@ -46,4 +46,4 @@ $ sudo apt-get install sox
 - By using the cli tool `sox` 5 seconds will be added to the end of each audio track to have a smoother transition between the poems.
 - In case you have mail configured on your server, you can also trigger a mail for every new poem (line 132-136), which is commented at the moment.
 - Line 143 onwards is dynamically creating the player.js file for the Howler audio player and is adding the new audio file to the playlist (line 446-460).
-- An audio loop is being played in the background, which is defined in line 201 in submit.php.
+- An audio loop can be played in the background, which is defined in line 201 in submit.php. Just drop an audio file in the directory `player/audio` and add the filename to line 201.
